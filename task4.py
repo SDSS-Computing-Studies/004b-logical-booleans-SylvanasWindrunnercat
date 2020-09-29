@@ -20,3 +20,19 @@ You are not a VIP.
 """
 
 VIPNames = ("Guile","Blanka","Christine","Carol","Richard","Daniel","Chun-Li")
+a = input("Your name is:")
+
+if a == "Guile":
+    print("Hello, Guile")
+elif a == "Blanka":
+    print("Hello, Blanka")
+elif a == "Christine":
+    print("Hello, Christine")
+elif a == "Carol":
+    print("Hello, Carol")
+elif a == "Richard":
+    print("Hello, Richard")
+elif a == "Daniel":
+    print("Hello, Daniel")
+elif a == "Chun-Li":
+    print("Hello, Chun-Li")
