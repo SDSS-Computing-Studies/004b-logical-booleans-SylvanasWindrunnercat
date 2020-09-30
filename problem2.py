@@ -23,3 +23,19 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+a = input("The bigger number(positive interger) is:")
+b = input("The smaller number(positive interger) is:")
+
+a = float(a)
+b = float(b)
+
+import math
+
+c = a / b
+
+c = float(c)
+
+if c == int(c):
+    print("The smaller number is the factor of bigger number")
+else:
+    print("The smaller number is not the factor of bigger number")

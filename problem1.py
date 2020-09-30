@@ -19,3 +19,18 @@ Enter a number: 48
 """
 
 #! python3
+a = input("The number is:")
+
+a = float(a)
+
+import math
+b = a / 8
+c = a / 6
+
+b = float(b)
+c = float(c)
+
+if b != int(b) and c == int(c):
+    print("The number is frue")
+else:
+    print("The number is not frue")

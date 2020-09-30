@@ -26,3 +26,25 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+a = input("The side1 is:")
+b = input("Then side2 is:")
+c = input("The hypotenuse is:")
+
+a = int(a)
+b = int(b)
+c = int(c)
+
+import math
+
+d = a**2
+e = b**2
+f = c**2
+
+d = float(d)
+e = float(e)
+f = float(f)
+
+if f == d + e:
+    print("They form a pythagorean triple")
+else:
+    print("They don't from a pythagorean triple")
